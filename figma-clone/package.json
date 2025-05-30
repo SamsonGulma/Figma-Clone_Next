@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@liveblocks/client": "^2.24.3",
+    "@liveblocks/react": "^2.24.3",
+    "fabric": "^6.6.6",
     "next": "15.3.2",
     "postcss": "^8.5.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.8",
