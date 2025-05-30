@@ -1,5 +1,13 @@
 // Define Liveblocks types for your application
 // https://liveblocks.io/docs/api-reference/liveblocks-react#Typing-your-data
+
+import { createClient } from "@liveblocks/client";
+
+const client = createClient({
+  publicApiKey: process.env.NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY || "",
+});
+export default client;
+
 declare global {
   interface Liveblocks {
     // Each user's Presence, for useMyPresence, useOthers, etc.
